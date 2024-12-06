@@ -60,7 +60,7 @@
                 doCheck = true;
                 buildPhase = patchDuneCommand oldAttrs.buildPhase;
                 checkPhase = patchDuneCommand oldAttrs.checkPhase;
-                installPhase = patchDuneCommand oldAttrs.checkPhase;
+                # installPhase = patchDuneCommand oldAttrs.checkPhase;
               });
 
           dune-fmt = legacyPackages.runCommand "check-dune-fmt"
