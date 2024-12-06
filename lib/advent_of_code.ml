@@ -15,7 +15,7 @@ let day_command (module Day : Day_intf.Day) =
          return ()) )
 
 let days : (module Day_intf.Day) list =
-  [ (module Day_1); (module Day_2); (module Day_3) ]
+  [ (module Day_1); (module Day_2); (module Day_3); (module Day_4) ]
 
 let command =
   let commands =

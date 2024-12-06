@@ -41,7 +41,7 @@ let part_1 input =
 
 let part_2 input = Operations.remove_disabled_instructions input |> part_1
 
-let%expect_test "day 2" =
+let%expect_test "day 3" =
   let input =
     {|xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))|}
   in
