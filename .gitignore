@@ -34,3 +34,6 @@ logs/
 # Logs
 *.log
 
+# Direnv
+.envrc
+.direnv/
